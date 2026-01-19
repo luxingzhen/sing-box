@@ -1,21 +1,19 @@
 {
-  "version": 2，
+  "version": 2,
   "rules": [
     {
       "domain_suffix": [
         "openai.com",
         "chatgpt.com",
-        "ai.com",
-        "netflix.com",
-        "nflxvideo.net", 
-        "nflximg.net",
-        "ping0.cc"
-      ],
+        "bing.com",
+        "bard.google.com",
+        "gemini.google.com",
+        "claude.ai"
+      ]
+    },
+    {
       "domain_keyword": [
-        "openai" 
-      ],
-      "ip_cidr": [
-        "1.2.3.4/32" 
+        "openai"
       ]
     }
   ]
