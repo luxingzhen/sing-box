@@ -1,15 +1,20 @@
 {
-  "version": 1,
+  "version": 2，
   "rules": [
     {
-      "domain": [
-        "appldnld.apple.com.edgesuite.net",
-      ],
       "domain_suffix": [
-        "100beatscheap.com",
+        "openai.com",
+        "chatgpt.com",
+        "ai.com",
+        "netflix.com",
+        "nflxvideo.net", 
+        "nflximg.net"
       ],
       "domain_keyword": [
-        "apple-support.akadns.net",
+        "openai" 
+      ],
+      "ip_cidr": [
+        "1.2.3.4/32" 
       ]
     }
   ]
